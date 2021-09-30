@@ -8,6 +8,7 @@
 </template>
 
 <script>
+//import HelloWorld from './components/HelloWorld';
 import AppTopBar from './components/shared/AppTopBar'
 
 export default {

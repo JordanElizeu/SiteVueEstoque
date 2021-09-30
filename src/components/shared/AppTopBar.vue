@@ -32,7 +32,7 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/compras">
+          <router-link to="/produtos">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-storefront</v-icon>
