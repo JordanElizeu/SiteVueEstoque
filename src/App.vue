@@ -1,23 +1,19 @@
 <template>
   <v-app>
+    <AppTopBar/>
     <v-main>
-      <HelloWorld/>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import AppTopBar from './components/shared/AppTopBar'
 
 export default {
   name: 'App',
-
   components: {
-    HelloWorld,
+    AppTopBar,
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
