@@ -1,23 +1,20 @@
 <template>
   <v-app>
+    <AppTopBar/>
     <v-main>
-      <Produtos/>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld';
-import Produtos from './views/produtos.vue'
+import AppTopBar from './components/shared/AppTopBar'
+
 export default {
   name: 'App',
-
   components: {
-    Produtos
+    AppTopBar,
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
