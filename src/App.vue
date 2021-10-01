@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <AppTopBar/>
     <v-main>
       <router-view/>
     </v-main>
@@ -7,12 +8,13 @@
 </template>
 
 <script>
+//import HelloWorld from './components/HelloWorld';
+import AppTopBar from './components/shared/AppTopBar'
 
 export default {
   name: 'App',
-
-  data: () => ({
-    //
-  }),
+  components: {
+    AppTopBar,
+  },
 };
 </script>
