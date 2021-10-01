@@ -1,6 +1,6 @@
 <template>
   <v-container>
-      <h2 class="text-center">Nossas vendas</h2>
+      <h2 class="text-center">Compras</h2>
    <v-simple-table height="300px" >
     <template>
       <thead>
@@ -23,7 +23,6 @@
         <tr
           v-for="item in desserts"
           :key="item.id"
-          
         >
           <td>{{ item.data }}</td>
           <td>{{ item.produto }}</td>
@@ -51,7 +50,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-</style>

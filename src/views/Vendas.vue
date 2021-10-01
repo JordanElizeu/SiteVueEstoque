@@ -1,9 +1,11 @@
 <template>
   <div class="vendas">
-    <v-simple-table>
+    <h2 class="text-center">Vendas</h2>
+    <v-simple-table class="tabela">
       <thead>
         <tr>
-          <th colspan="2" class="text-left">Produto</th>
+          <th>ID</th>
+          <th class="text-left">Produto</th>
           <th class="text-left">Quantidade</th>
           <th class="text-left">Cliente</th>
           <th class="text-left">Data</th>
@@ -52,8 +54,11 @@ export default {
 
 <style scoped>
 .titulo {
-  margin: 10px;
   display: flex;
   justify-content: center;
+}
+
+.tabela {
+  margin: 10px;
 }
 </style>
