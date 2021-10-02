@@ -1,18 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import ViewInformation from '../views/ViewInformation.vue'
-import produtos from '../views/produtos.vue'
 import Inicio from '../views/Inicio.vue'
 import Vendas from '../views/Vendas.vue'
+import Produtos from '../views/Produtos.vue'
+import ViewInformation from '../views/ViewInformation.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/viewinformation',
-    name: 'viewinformation',
-    component: ViewInformation
-  },
   {
   path: '/',
   name: 'Inicio',
@@ -20,13 +15,18 @@ const routes = [
   },
   {
     path: '/produtos',
-    name: 'produtos',
-    component: produtos 
+    name: 'Produtos',
+    component: Produtos 
   },
   {
     path: '/vendas',
     name: 'Vendas',
     component: Vendas
+  },
+  {
+    path: '/info',
+    name: 'Viewinformation',
+    component: ViewInformation
   }
 ]
 
