@@ -41,7 +41,7 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/info">
+          <router-link to="/viewinformation">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-information</v-icon>
